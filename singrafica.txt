@@ -15,4 +15,5 @@ Sexto - reboot
 
 ##### para iniciar el modo grafico
 	startx
-Now it's done!   
+Now it's done!
+En Arch Linux, no levanta la gráfica con startx :V   
