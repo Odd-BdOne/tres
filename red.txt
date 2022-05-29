@@ -1,0 +1,13 @@
+ sudo systemclt enable dhcpcd.service
+ sudo systemctl start dhcpcd.service
+ ip link show
+	#Se puede pasar un argumento de búsqueda.
+	ip link show | grep "wlo1" "eth" "enp" "eth0" 
+ sudo dhcpcd wlo1
+	#con este comando asignamos el servicio dhcp a la interface elegida
+ 
+#Buscamos las redes disponibles para conectarnos.
+ nmcli radio
+ nmcli device wifi rescan
+ nmcli device wifi list
+ nmcli device wifi connect <<namered>> password <<password>>
