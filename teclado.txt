@@ -1,7 +1,0 @@
-Para colocar o setear el teclado a latam en arch linux:
-ingresa a:
-sudo nano ~./bachrc
-y coloca el setkbmap latam :V
-si no encuentras el archivo ~./bachrc, quizás esté como bacth.batchrc
-búscalo
-Luego de eso puedes probar si en el modo consola, sin gráfica, también te soluciona el problema.
